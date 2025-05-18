@@ -1,0 +1,122 @@
+#relevant_form a { font-size:12px; }
+
+#relevant_form #sortings .sorting .title,
+#relevant_form #filters .filter .title { display:inline-block; width:160px; }
+
+#relevant_form #sortings .sorting .to select,
+#relevant_form #filters .filter .condition select { padding:3px; width:160px; }
+
+#relevant_form #sortings .sorting .to select,
+#relevant_form #filters .filter .value { margin-right: 10px; }
+
+#relevant_form #sortings,
+#relevant_form #filters { margin-bottom:10px; }
+
+#relevant_form #A3CAE0_filter {
+    color:#666;
+    background:#EDEDED;
+    padding:4px 10px;
+    border-radius: 6px;
+}
+#relevant_form #A3CAE0_filter select{
+    margin:0 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.cols_1 {
+    width: 100%;
+}
+
+.cols_2 {
+    max-width: 49%;
+    display: inline-block;
+}
+
+.cols_3 {
+    max-width: 32%;
+    display: inline-block;
+}
+
+.cols_4 {
+    max-width: 23%;
+    display: inline-block;
+}
+
+.row-in {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.relevants_not_found {
+    border: 1px solid grey;
+    padding: 3px 10px;
+    font-size: 12px;
+    clear: both;
+}
+
+.relevants{
+    display: table;
+}
+
+.relevants .photo{
+    float: left;
+    margin-right: 10px;
+}
+
+.relevants .relevants_list_item {
+    display: inline-table;
+    margin: 0 2px;
+}
+.relevants .title {
+    margin-bottom: 8px;
+}
+.relevants .title a {
+    color: #2c3e50;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.relevants .description {
+    text-align: justify;
+}
+.relevants .cat {
+    color: #95a5a6;
+    font-size: 11px;
+    margin: 5px 0;
+}
+.relevants .tags_bar {
+    background: url("/templates/default/images/icons/tag.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    font-size: 11px;
+    margin: 10px 0;
+    overflow: hidden;
+    padding-left: 20px;
+}
+.relevants .tags_bar a {
+    color: #7f8c8d;
+}
+
+.relevants .info_bar {
+    color: #95a5a6;
+    display: inline-block;
+    font-size: 11px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+.relevants .bar_item {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 5px;
+}
+.relevants .info_bar .bar_item a {
+    color: #7f8c8d;
+}
+.relevants .info_bar .bi_comments{
+    padding-left:25px;
+    background: url("/templates/default/images/icons/comment-small.png") no-repeat 5px center;
+}
